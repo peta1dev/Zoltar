@@ -8,19 +8,32 @@ The fortune contains 3 randomly generated elements, each taken from different ar
 
 The format of the fortune is as follows:
 
-` I am The Great Zoltar! Prepare for your fortune!`
-` I see [random phrase A]...` 
-` I am receiving [random phrase B]...`
-` You must [random phrase C]!`
-` Zoltar has spoken!`
+<span style="font-family:monospace;background-color:lightgrey;color:black">
 
-For example:
+I am The Great Zoltar! Prepare for your fortune!
 
-` I am the Great Zoltar! Prepare for your fortune!`
-` I see a woman...`
-` I am receiving a scent... of cigarettes...`
-` You must beware! Do not be deceived!`
-` Zoltar has spoken!`
+I see [random phrase A]...
+
+I am receiving [random phrase B]...
+
+You must [random phrase C]!
+
+Zoltar has spoken!
+</span>
+
+**For example:**
+
+<span style="font-family:monospace;background-color:lightgrey;color:black">
+I am the Great Zoltar! Prepare for your fortune!
+
+I see a woman...
+
+I am receiving a scent... of cigarettes...
+
+You must beware! Do not be deceived!
+
+Zoltar has spoken! 
+</span>
 
 # Codecademy Project Requirements
 
@@ -49,11 +62,3 @@ To make your program truly random, the message that it outputs should be made up
 # Usage
 
 node zoltar.js
-
-
-
-
-
-
-
-
